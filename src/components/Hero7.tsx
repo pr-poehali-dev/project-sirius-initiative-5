@@ -22,10 +22,10 @@ interface Hero7Props {
 }
 
 const Hero7 = ({
-  heading = "Премиум шаблоны для продуктивности",
-  description = "Стильные профессиональные шаблоны для повышения продуктивности и оптимизации рабочего процесса. Готовы к использованию, легко настраиваются.",
+  heading = "Цифровые ключи для любимых игр",
+  description = "Мгновенная покупка лицензионных ключей Steam, Xbox, PlayStation и других платформ. Оплатили — и ключ сразу приходит вам на почту. Быстро, честно, с гарантией.",
   button = {
-    text: "Смотреть шаблоны",
+    text: "Выбрать игру",
     url: "#",
   },
   reviews = {
@@ -121,7 +121,7 @@ const Hero7 = ({
               ))}
               <span className="mr-1 font-semibold">{reviews.rating?.toFixed(1)}</span>
             </div>
-            <p className="text-muted-foreground text-left font-medium">{reviews.count}+ отзывов</p>
+            <p className="text-muted-foreground text-left font-medium">{reviews.count}+ довольных геймеров</p>
           </div>
         </motion.div>
       </div>
